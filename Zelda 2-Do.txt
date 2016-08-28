@@ -1,0 +1,19 @@
++Destroy blobs that fall in pit
++Stop Link from flipping when attacking
++Give blobs AI
++Make Link get Hurt
++Make blobs hurt
++Make blobs pass through each other
++Add pause menu
++Knockback from damage
++Empty heart for UI
++Make Respawn Point a variable
++Camera Lock below certain point (make look like pit)
++Health Pickups
++Add pause overlay
+Shield hitbox
+
+MAKE A LEVEL!!
+
+LATER:
+Make Link pass through enemies (may need to use layers and child object on enemy, this is going to take a lot of work!!)
