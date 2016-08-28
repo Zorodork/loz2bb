@@ -1,0 +1,6 @@
+BLOB AI:
+stand still -> hop towards player
+
+tell: wiggles faster
+
+bug: slides on other enemies
