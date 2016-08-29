@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class OctoBehavior : EnemyBehavior {
-    SpriteRenderer rend;
+    private SpriteRenderer rend;
     [SerializeField]
-    float shootTimer;
+    private float shootTimer;
     public GameObject rock;
 
     // Use this for initialization

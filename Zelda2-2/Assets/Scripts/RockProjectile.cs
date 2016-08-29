@@ -2,24 +2,27 @@
 using System.Collections;
 
 public class RockProjectile : MonoBehaviour {
-    Animator anim;
-    Rigidbody2D rb;
-    Collider2D coll;
+    private Animator anim;
+    private AudioSource auSource;
+    public AudioClip dink;
+    private Rigidbody2D rb;
+    private Collider2D coll;
     [SerializeField]
-    private bool _isLeft, isAlive;
+    private bool _isLeft, _isAlive;
     private int speed;
 	// Use this for initialization
 	void Start () {
-        isAlive = true;
+        _isAlive = true;
         speed = 6;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
+        auSource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (isAlive)
+        if (_isAlive)
         {
             if (_isLeft)
                 rb.velocity = Vector2.left * speed;
@@ -27,11 +30,15 @@ public class RockProjectile : MonoBehaviour {
                 rb.velocity = Vector2.right * speed;
         }
 	}
-    void hit()
+    void hit(bool player)
     {
-        isAlive = false;
+        _isAlive = false;
         anim.SetBool("isDead", true);
-        //auSource.Play();
+        if (!player)
+        {
+            auSource.clip = dink;
+            auSource.Play();
+        }
         rb.velocity = new Vector2(0, 0);
         coll.enabled = false;
         Destroy(gameObject, .5f);
@@ -39,7 +46,13 @@ public class RockProjectile : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag != "Enemy")
-            hit();
+        {
+            if (other.tag == "Player")
+                hit(true);
+            else
+                hit(false);
+        }
+            
     }
     public bool isLeft
     {
@@ -50,6 +63,17 @@ public class RockProjectile : MonoBehaviour {
         set
         {
             _isLeft = value;
+        }
+    }
+    public bool isAlive
+    {
+        get
+        {
+            return _isAlive;
+        }
+        set
+        {
+            _isAlive = value;
         }
     }
 }
