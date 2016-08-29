@@ -12,6 +12,7 @@
 +Health Pickups
 +Add pause overlay
 Shield hitbox
+Bug: Can't jump while ducking and trying to move left (using arrow keys, WASD works fine)
 
 MAKE A LEVEL!!
 

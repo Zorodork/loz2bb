@@ -235,11 +235,13 @@ public class playMove : MonoBehaviour {
 			print ("hit");
 			auSource.clip = hit;
 			auSource.Play ();
-			other.GetComponent<BlobBehavior>().health -= power;
+            if (!other.GetComponent<EnemyBehavior>())
+                other.GetComponent<BlobBehavior>().health -= power;
+            else
+                other.GetComponent<EnemyBehavior>().health -= power;
 		}
         if (other.tag == "Health")
         {
-            print("yaaaasss");
             if (_health<_maxHealth)
                 _health++;
             auSource.clip = heart;

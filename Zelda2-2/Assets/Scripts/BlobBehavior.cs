@@ -33,8 +33,9 @@ public class BlobBehavior : MonoBehaviour {
 	void Update () {
         //check if grounded
         ground = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, layerMask);
+        Debug.DrawLine(transform.position, transform.position - new Vector3(0,.1f,0), Color.green);
         //if blob is dead
-		if (_health <= 0 && !auSource.isPlaying) {
+        if (_health <= 0 && !auSource.isPlaying) {
 			anim.SetBool ("isDead", true);
 			auSource.Play();
             rb.velocity = new Vector2(0, 0);

@@ -1,11 +1,16 @@
 fileFormatVersion: 2
 guid: 704d1573391e5fa4fbcda60d617c8bde
-timeCreated: 1464066609
+timeCreated: 1472438134
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: 1614_0
     21300002: 1614_1
+    21300004: 1614_2
+    21300006: 1614_3
+    21300008: 1614_4
+    21300010: 1614_5
+    21300012: 1614_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -70,6 +75,61 @@ TextureImporter:
         y: 517
         width: 14
         height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 1614_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 1614_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 313
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 1614_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 317
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 1614_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 317
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 1614_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 317
+        width: 8
+        height: 10
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
