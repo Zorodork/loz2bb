@@ -10,7 +10,7 @@ public class OctoBehavior : EnemyBehavior {
     // Use this for initialization
     void Start () {
         //values
-        _health = 4;
+        _health = 3;
         speed = 2;
         height = 8;
         timer = timerSet();

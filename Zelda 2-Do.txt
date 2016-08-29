@@ -11,7 +11,9 @@
 +Camera Lock below certain point (make look like pit)
 +Health Pickups
 +Add pause overlay
-Shield hitbox
++Added Octo enemy, and they shoot rock!
++Added rocks
+CHALLENGE: Shield hitbox! (May need restructuring)
 Bug: Can't jump while ducking and trying to move left (using arrow keys, WASD works fine)
 
 MAKE A LEVEL!!
