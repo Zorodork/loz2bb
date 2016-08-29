@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: a0c2072334205654ab9e2d0d5146ce7e
+timeCreated: 1472446223
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NES - Zelda 2 The Adventure of Link - Parapa Palace_13
+    21300002: NES - Zelda 2 The Adventure of Link - Parapa Palace_14
+    21300004: NES - Zelda 2 The Adventure of Link - Parapa Palace_16
+    21300006: NES - Zelda 2 The Adventure of Link - Parapa Palace_17
+    21300008: NES - Zelda 2 The Adventure of Link - Parapa Palace_20
+    21300010: NES - Zelda 2 The Adventure of Link - Parapa Palace_22
+    21300012: NES - Zelda 2 The Adventure of Link - Parapa Palace_35
+    21300014: NES - Zelda 2 The Adventure of Link - Parapa Palace_36
+    21300016: NES - Zelda 2 The Adventure of Link - Parapa Palace_37
+    21300018: NES - Zelda 2 The Adventure of Link - Parapa Palace_38
+    21300020: NES - Zelda 2 The Adventure of Link - Parapa Palace_39
+    21300022: NES - Zelda 2 The Adventure of Link - Parapa Palace_40
+    21300024: NES - Zelda 2 The Adventure of Link - Parapa Palace_41
+    21300026: NES - Zelda 2 The Adventure of Link - Parapa Palace_42
+    21300028: NES - Zelda 2 The Adventure of Link - Parapa Palace_43
+    21300030: NES - Zelda 2 The Adventure of Link - Parapa Palace_44
+    21300032: NES - Zelda 2 The Adventure of Link - Parapa Palace_45
+    21300034: NES - Zelda 2 The Adventure of Link - Parapa Palace_46
+    21300036: NES - Zelda 2 The Adventure of Link - Parapa Palace_47
+    21300038: NES - Zelda 2 The Adventure of Link - Parapa Palace_48
+    21300040: NES - Zelda 2 The Adventure of Link - Parapa Palace_49
+    21300042: NES - Zelda 2 The Adventure of Link - Parapa Palace_50
+    21300044: NES - Zelda 2 The Adventure of Link - Parapa Palace_51
+    21300046: NES - Zelda 2 The Adventure of Link - Parapa Palace_52
+    21300048: NES - Zelda 2 The Adventure of Link - Parapa Palace_53
+    21300050: NES - Zelda 2 The Adventure of Link - Parapa Palace_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 180
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 140
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 94
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 94
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 94
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_44
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 94
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_45
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 78
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_48
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -32, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_51
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 83
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 73
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_53
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_54
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 53
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8bbee62a7bb40a5449089c3af38b326d
-timeCreated: 1464078709
+timeCreated: 1472444143
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -17,6 +17,11 @@ TextureImporter:
     21300020: 1611_10
     21300022: 1611_11
     21300024: 1611_12
+    21300026: Link_Death
+    21300028: Link_DownStab
+    21300030: Link_UpStab
+    21300032: Link_FistPump
+    21300034: Link_WeaponLess
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -212,6 +217,61 @@ TextureImporter:
         height: 8
       alignment: 7
       pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Link_Death
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 378
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Link_DownStab
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 378
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Link_UpStab
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 379
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Link_FistPump
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 376
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Link_WeaponLess
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 377
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

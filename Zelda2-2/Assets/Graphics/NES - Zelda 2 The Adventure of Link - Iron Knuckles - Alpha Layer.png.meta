@@ -1,0 +1,1325 @@
+fileFormatVersion: 2
+guid: daa71bec25614a946b8762e48c35bcb7
+timeCreated: 1472446333
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_8
+    21300002: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_9
+    21300004: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_10
+    21300006: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_11
+    21300008: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_12
+    21300010: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_13
+    21300012: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_14
+    21300014: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_15
+    21300016: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_16
+    21300018: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_17
+    21300020: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_18
+    21300022: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_19
+    21300024: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_20
+    21300026: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_21
+    21300028: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_22
+    21300030: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_23
+    21300032: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_24
+    21300034: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_25
+    21300036: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_26
+    21300038: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_27
+    21300040: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_28
+    21300042: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_29
+    21300044: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_30
+    21300046: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_31
+    21300048: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_32
+    21300050: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_33
+    21300052: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_34
+    21300054: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_35
+    21300056: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_36
+    21300058: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_37
+    21300060: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_38
+    21300062: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_39
+    21300064: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_40
+    21300066: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_41
+    21300068: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_42
+    21300070: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_43
+    21300072: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_44
+    21300074: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_56
+    21300076: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_57
+    21300078: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_58
+    21300080: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_59
+    21300082: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_60
+    21300084: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_61
+    21300086: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_62
+    21300088: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_63
+    21300090: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_64
+    21300092: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_65
+    21300094: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_66
+    21300096: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_67
+    21300098: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_68
+    21300100: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_69
+    21300102: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_70
+    21300104: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_71
+    21300106: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_72
+    21300108: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_73
+    21300110: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_74
+    21300112: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_75
+    21300114: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_76
+    21300116: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_77
+    21300118: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_78
+    21300120: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_79
+    21300122: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_80
+    21300124: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_81
+    21300126: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_82
+    21300128: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_83
+    21300130: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_84
+    21300132: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_85
+    21300134: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_86
+    21300136: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_87
+    21300138: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_88
+    21300140: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_89
+    21300142: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_90
+    21300144: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_91
+    21300146: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_92
+    21300148: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_104
+    21300150: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_105
+    21300152: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_106
+    21300154: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_107
+    21300156: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_108
+    21300158: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_109
+    21300160: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_110
+    21300162: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_111
+    21300164: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_112
+    21300166: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_113
+    21300168: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_114
+    21300170: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_115
+    21300172: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_116
+    21300174: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_117
+    21300176: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_118
+    21300178: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_119
+    21300180: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_120
+    21300182: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_121
+    21300184: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_122
+    21300186: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_123
+    21300188: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_124
+    21300190: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_125
+    21300192: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_126
+    21300194: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_127
+    21300196: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_128
+    21300198: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_129
+    21300200: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_130
+    21300202: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_131
+    21300204: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_0
+    21300206: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 506
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 506
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 502
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 502
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 469
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 469
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 469
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 469
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 470
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 469
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 468
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 467
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 466
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 466
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 466
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_23
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 465
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_24
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 465
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 465
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 465
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -3}
+        - {x: 16, y: 16}
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_27
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 465
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 430
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_29
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 430
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 430
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 430
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_32
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 429
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_33
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 429
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_34
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 429
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 438
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 429
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_37
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 430
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_38
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 430
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_39
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 430
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_40
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 430
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_41
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 430
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_42
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 430
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_43
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 430
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 0, y: 16}
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_44
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 430
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 368
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_57
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 368
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_58
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 364
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_59
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 364
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 331
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 331
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_62
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 331
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_63
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 331
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_64
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 332
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_65
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 331
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_66
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 330
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 329
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_68
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 328
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_69
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 328
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_70
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 328
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 327
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_72
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 327
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_73
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 327
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_74
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 327
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -3}
+        - {x: 16, y: 16}
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_75
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 327
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_76
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 292
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_77
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 292
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_78
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 292
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_79
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 292
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 291
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 291
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_82
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 291
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_83
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 300
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_84
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 291
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_85
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 292
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_86
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 292
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_87
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 292
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_88
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 292
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_89
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 292
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_90
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 292
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_91
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 0, y: 16}
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_92
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 292
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_104
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 235
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_105
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 235
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_106
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 198
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_107
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_108
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 232
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_109
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 198
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_110
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 198
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_111
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 198
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_112
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 198
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_113
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 198
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_114
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 194
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_115
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 195
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_116
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 196
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_117
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 196
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_118
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 195
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_119
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 195
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_120
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 155
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_121
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 156
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_122
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 156
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_123
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 156
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_124
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 156
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_125
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 156
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_126
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 158
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_127
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 158
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_128
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 159
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_129
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 158
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_130
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 158
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_131
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 158
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 250
+        width: 8
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Iron Knuckles - Alpha Layer_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 250
+        width: 9
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

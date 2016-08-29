@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 704d1573391e5fa4fbcda60d617c8bde
-timeCreated: 1472438134
+timeCreated: 1472444389
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,9 @@ TextureImporter:
     21300008: 1614_4
     21300010: 1614_5
     21300012: 1614_6
+    21300014: Ache_UpsideDown
+    21300016: Ache_WingsIn
+    21300018: Ache_WingsOut
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -132,6 +135,39 @@ TextureImporter:
         height: 10
       alignment: 7
       pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ache_UpsideDown
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 607
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ache_WingsIn
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 607
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ache_WingsOut
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 607
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

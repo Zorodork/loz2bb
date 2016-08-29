@@ -20,3 +20,8 @@ MAKE A LEVEL!!
 
 LATER:
 Make Link pass through enemies (may need to use layers and child object on enemy, this is going to take a lot of work!!)
+
+Assets:
+
+Process/Import Grass Encounter and Parapa Palace Tilesets.
+	+ Acquired at (http://www.spriters-resource.com/nes/tloztheadventureoflink/)

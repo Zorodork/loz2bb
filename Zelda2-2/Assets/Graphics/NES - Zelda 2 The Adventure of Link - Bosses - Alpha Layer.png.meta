@@ -1,0 +1,1425 @@
+fileFormatVersion: 2
+guid: b35ac40aed81e9e4e905b492aad65385
+timeCreated: 1472446411
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_8
+    21300002: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_9
+    21300004: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_10
+    21300006: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_11
+    21300008: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_12
+    21300010: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_13
+    21300012: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_18
+    21300014: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_19
+    21300016: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_20
+    21300018: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_21
+    21300020: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_22
+    21300022: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_23
+    21300024: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_24
+    21300026: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_25
+    21300028: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_34
+    21300030: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_35
+    21300032: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_44
+    21300034: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_45
+    21300036: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_46
+    21300038: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_47
+    21300040: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_48
+    21300042: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_49
+    21300044: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_50
+    21300046: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_51
+    21300048: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_52
+    21300050: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_53
+    21300052: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_54
+    21300054: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_55
+    21300056: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_56
+    21300058: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_57
+    21300060: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_66
+    21300062: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_67
+    21300064: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_68
+    21300066: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_69
+    21300068: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_70
+    21300070: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_71
+    21300072: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_72
+    21300074: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_73
+    21300076: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_74
+    21300078: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_75
+    21300080: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_76
+    21300082: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_77
+    21300084: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_78
+    21300086: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_79
+    21300088: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_80
+    21300090: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_81
+    21300092: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_82
+    21300094: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_83
+    21300096: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_84
+    21300098: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_85
+    21300100: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_86
+    21300102: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_87
+    21300104: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_88
+    21300106: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_89
+    21300108: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_90
+    21300110: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_91
+    21300112: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_92
+    21300114: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_93
+    21300116: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_94
+    21300118: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_95
+    21300120: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_96
+    21300122: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_97
+    21300124: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_98
+    21300126: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_99
+    21300128: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_100
+    21300130: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_101
+    21300132: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_102
+    21300134: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_103
+    21300136: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_104
+    21300138: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_105
+    21300140: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_106
+    21300142: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_107
+    21300144: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_108
+    21300146: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_109
+    21300148: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_110
+    21300150: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_111
+    21300152: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_112
+    21300154: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_113
+    21300156: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_114
+    21300158: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_115
+    21300160: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_116
+    21300162: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_133
+    21300164: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_134
+    21300166: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_135
+    21300168: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_136
+    21300170: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_137
+    21300172: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_138
+    21300174: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_139
+    21300176: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_140
+    21300178: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_141
+    21300180: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_142
+    21300182: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_143
+    21300184: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_144
+    21300186: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_145
+    21300188: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_146
+    21300190: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_147
+    21300192: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_148
+    21300194: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_149
+    21300196: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_150
+    21300198: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_151
+    21300200: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_152
+    21300202: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_153
+    21300204: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_154
+    21300206: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_155
+    21300208: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_156
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 532
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 531
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 532
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 532
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 533
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 533
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 548
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_19
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 548
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_20
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 549
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_21
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 532
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_22
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 532
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_23
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 532
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_24
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 532
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_25
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 499
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_35
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 499
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 460
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 460
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 460
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_47
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 460
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 460
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 460
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 461
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_51
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 461
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_52
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 461
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 461
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_54
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 421
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -33}
+        - {x: -18, y: -40}
+        - {x: 21, y: -40}
+        - {x: 24, y: -10}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_55
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 421
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -3}
+        - {x: -16, y: -40}
+        - {x: 21, y: -40}
+        - {x: 24, y: -14}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_56
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 421
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 40}
+        - {x: -24, y: 39}
+        - {x: -24, y: -4}
+        - {x: -18, y: -40}
+        - {x: 18, y: -40}
+        - {x: 24, y: 1}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_57
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 421
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -19}
+        - {x: -23, y: -26}
+        - {x: -18, y: -40}
+        - {x: 19, y: -40}
+        - {x: 24, y: -2}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_66
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 410
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_67
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 408
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_68
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 408
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_69
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 407
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_70
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 407
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_71
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 407
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 407
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_73
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 407
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_74
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 407
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_75
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 406
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_76
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 406
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_77
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 337
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -33}
+        - {x: -18, y: -40}
+        - {x: 21, y: -40}
+        - {x: 24, y: -10}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_78
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 337
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -3}
+        - {x: -16, y: -40}
+        - {x: 21, y: -40}
+        - {x: 24, y: -14}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_79
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 337
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 40}
+        - {x: -24, y: 39}
+        - {x: -24, y: -4}
+        - {x: -18, y: -40}
+        - {x: 18, y: -40}
+        - {x: 24, y: 1}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_80
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 337
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -19}
+        - {x: -23, y: -26}
+        - {x: -18, y: -40}
+        - {x: 19, y: -40}
+        - {x: 24, y: -2}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_81
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 369
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_82
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 369
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_83
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 369
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_84
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 369
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_85
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 329
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_86
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 329
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_87
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 292
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: -3}
+        - {x: -17.5, y: -27}
+        - {x: -12.5, y: -27}
+        - {x: -12.5, y: -4}
+        - {x: -16.5, y: -3}
+      - - {x: -9.5, y: 7}
+        - {x: -10.5, y: 6}
+        - {x: -10.5, y: -17}
+        - {x: -5.5, y: -27}
+        - {x: 17.5, y: -27}
+        - {x: 17.5, y: 6}
+        - {x: 15.5, y: 7}
+      - - {x: -17.5, y: 27}
+        - {x: -17.5, y: 23}
+        - {x: -9.5, y: 23}
+        - {x: -7.5, y: 25}
+        - {x: -8.5, y: 27}
+      - - {x: -6.5, y: 27}
+        - {x: -6.5, y: 25}
+        - {x: -4.5, y: 23}
+        - {x: 3.5, y: 23}
+        - {x: 5.5, y: 25}
+        - {x: 4.5, y: 27}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 326
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_89
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 326
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_90
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 250
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -33}
+        - {x: -18, y: -40}
+        - {x: 21, y: -40}
+        - {x: 24, y: -10}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_91
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 250
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -3}
+        - {x: -16, y: -40}
+        - {x: 21, y: -40}
+        - {x: 24, y: -14}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_92
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 250
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 40}
+        - {x: -24, y: 39}
+        - {x: -24, y: -4}
+        - {x: -18, y: -40}
+        - {x: 18, y: -40}
+        - {x: 24, y: 1}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_93
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 250
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 40}
+        - {x: -24, y: -8}
+        - {x: -16, y: -40}
+        - {x: 20, y: -40}
+        - {x: 24, y: -33}
+        - {x: 24, y: 40}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_94
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 292
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_95
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 292
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_96
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 292
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_97
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 292
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_98
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 292
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_99
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 288
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_100
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 289
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_101
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 290
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 290
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_103
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 289
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_104
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 289
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_105
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 249
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_106
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 250
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_107
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 250
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 250
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_109
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 250
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_110
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 250
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_111
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 252
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_112
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 252
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_113
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 253
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_114
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 252
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_115
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 252
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_116
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 252
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_133
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 175
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_134
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 176
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_135
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 191
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_136
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 189
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_137
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 191
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_138
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 189
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_139
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 191
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_140
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 189
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_141
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 191
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_142
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 189
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_143
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 177
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_144
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 178
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_145
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 178
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23.5}
+        - {x: -15, y: 22.5}
+        - {x: -16, y: 18.5}
+        - {x: -16, y: -13.5}
+        - {x: -13, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 16, y: 10.5}
+        - {x: 5, y: 23.5}
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_146
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 178
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_147
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 186
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_148
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 186
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_149
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 186
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_150
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 186
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_151
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 186
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_152
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 186
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_153
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 186
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_154
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 186
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_155
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 159
+        width: 65
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Bosses - Alpha Layer_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,11 +1,16 @@
 fileFormatVersion: 2
 guid: 064002ab656663c44818981a6963febb
-timeCreated: 1472325071
+timeCreated: 1472444553
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: 54720_0
     21300002: 54720_1
+    21300004: Heart_Container
+    21300006: Bow_Arrow
+    21300008: 54720_2
+    21300010: Key
+    21300012: Big Key
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -70,6 +75,61 @@ TextureImporter:
         y: 112
         width: 7
         height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Heart_Container
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 106
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bow_Arrow
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 54720_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Key
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 104
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Big Key
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 104
+        width: 8
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

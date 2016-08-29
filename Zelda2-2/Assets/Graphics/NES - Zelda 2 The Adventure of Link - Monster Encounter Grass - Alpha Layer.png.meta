@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 580c248a2b001aa49a0beb51459d0c9b
+timeCreated: 1472446971
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_27
+    21300002: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_28
+    21300004: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_46
+    21300006: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_47
+    21300008: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_48
+    21300010: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_49
+    21300012: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_50
+    21300014: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_77
+    21300016: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_78
+    21300018: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_79
+    21300020: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_80
+    21300022: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_81
+    21300024: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_82
+    21300026: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_124
+    21300028: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_171
+    21300030: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+      Layer_218
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_27
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_28
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 263
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_80
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Zelda 2 The Adventure of Link - Monster Encounter Grass - Alpha
+        Layer_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
