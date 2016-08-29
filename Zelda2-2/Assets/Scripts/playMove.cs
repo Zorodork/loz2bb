@@ -248,7 +248,26 @@ public class playMove : MonoBehaviour {
             auSource.Play();
             Destroy(other.gameObject);
         }
-	}
+        if (other.gameObject.tag == "EnProj")
+        {
+            if (stun <= 0)
+            {
+                auSource.clip = hurt;
+                auSource.Play();
+                _health--;
+                isHit = true;
+                //find where he was hit to apply direction
+                float pos;
+                if (other.gameObject.transform.position.x < this.gameObject.transform.position.x)
+                    pos = 1;
+                else
+                    pos = -1;
+                //apply knockback!
+                rb.AddForce(new Vector2(pos / 2, 1) * 500);
+                stun = 2;
+            }
+        }
+    }
 
     //If Collider hits another one
     void OnCollisionStay2D(Collision2D other)

@@ -3,6 +3,9 @@ using System.Collections;
 
 public class OctoBehavior : EnemyBehavior {
     SpriteRenderer rend;
+    [SerializeField]
+    float shootTimer;
+    public GameObject rock;
 
     // Use this for initialization
     void Start () {
@@ -10,7 +13,8 @@ public class OctoBehavior : EnemyBehavior {
         _health = 4;
         speed = 2;
         height = 8;
-        timerSet();
+        timer = timerSet();
+        shootTimer = timerSet()+.5f;
         layerMask = ~(1 << 8); //check against layers that AREN'T 8 (enemy layer)
         //objects
         auSource = GetComponent<AudioSource>();
@@ -25,7 +29,9 @@ public class OctoBehavior : EnemyBehavior {
 	void Update () {
         //check if grounded
         ground = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, layerMask);
-        rend.flipX = (rb.position.x > rbp.position.x) ? true : false;
+        //if grounded, then enemy can flip
+        if (ground)
+            rend.flipX = (rb.position.x > rbp.position.x) ? true : false;
         //if blob is dead
         if (_health <= 0 && !auSource.isPlaying)
         {
@@ -44,18 +50,36 @@ public class OctoBehavior : EnemyBehavior {
         if (timer < .5 && ground.collider != null)
             anim.speed = 2;
         if (timer > 0)
+        {
             timer -= Time.deltaTime;
+        }
         else if (ground.collider != null)
             hop();
-	}
+        //timer for shooting
+        if (shootTimer > 0)
+            shootTimer -= Time.deltaTime;
+        else
+            shoot();
+    }
 	//tell octo to hop
 	void hop(){
         rb.velocity = new Vector2(0, height);
-        timerSet();
+        timer = timerSet();
         anim.speed = 1;
 	}
+    //tell octo to shoot in the right direction
+    void shoot()
+    {
+        GameObject rock1 = (GameObject)Instantiate(rock, transform.position + (Vector3.up*.5f), transform.rotation);
+        if (rend.flipX == true)
+            rock1.GetComponent<RockProjectile>().isLeft = true;
+        else
+            rock1.GetComponent<RockProjectile>().isLeft = false;
+        shootTimer = timerSet();
+    }
     //set the timer
-    void timerSet(){
-        timer = Random.Range(3,6);
+    float timerSet(){
+        float timers = Random.Range(3,6);
+        return timers;
     }
 }
