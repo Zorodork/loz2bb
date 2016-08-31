@@ -11,7 +11,7 @@ public class OctoBehavior : EnemyBehavior {
     void Start () {
         //values
         _health = 3;
-        speed = 2;
+        speed = 0;
         height = 8;
         timer = timerSet();
         shootTimer = timerSet()+.5f;
@@ -32,7 +32,7 @@ public class OctoBehavior : EnemyBehavior {
         //if grounded, then enemy can flip
         if (ground)
             rend.flipX = (rb.position.x > rbp.position.x) ? true : false;
-        //if blob is dead
+        //if is dead
         if (_health <= 0 && !auSource.isPlaying)
         {
             enDeath();
@@ -63,7 +63,7 @@ public class OctoBehavior : EnemyBehavior {
     }
 	//tell octo to hop
 	void hop(){
-        rb.velocity = new Vector2(0, height);
+        rb.velocity = new Vector2(speed, height);
         timer = timerSet();
         anim.speed = 1;
 	}
