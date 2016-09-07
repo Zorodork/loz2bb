@@ -3,8 +3,9 @@ using System.Collections;
 
 public class playMove : MonoBehaviour {
 
-	public float Speed = 0f; //player speed, DEFAULT 4
-	public float Height = 10f; //height of jump, DEFAULT 12
+    //MOVEMENT VARIABLES
+	public float Speed = 4f; //player speed, DEFAULT 4
+	public float Height = 12f; //height of jump, DEFAULT 12
 	[SerializeField]
 	private float movex = 0f;
 	[SerializeField]
@@ -12,9 +13,9 @@ public class playMove : MonoBehaviour {
     [SerializeField]
     private int _health;
 
-    private float stun = 0;
 
-	[SerializeField]
+    //STATE VARIABLES
+    [SerializeField]
 	private bool inAir = false;
 	[SerializeField]
 	private bool isAttacking = false;
@@ -23,6 +24,7 @@ public class playMove : MonoBehaviour {
     [SerializeField]
     private bool isHit = false;
 
+    //OBJECT VARIABLES
     private Rigidbody2D rb;
 	private SpriteRenderer rend;
 	private Animator anim;
@@ -33,11 +35,17 @@ public class playMove : MonoBehaviour {
 
     //GAME VARIABLES
 	private float attTime; //float used to keep track of attack length
+    private float stun = 0; //float used to keep track of stun time
     [SerializeField]
     private int power = 1; //how strong link is, DEFAULT 1
     [SerializeField]
     private int _maxHealth = 3; //how much health link can have, DEFAULT 3
-    private Vector2 respawn;
+
+    //PLAYER PROPERTIES
+    private float stunTime = 2; // default stun time, DEFAULT 2
+    private float friction = 1.25f; // default friction, DEFAULT 1.25
+
+    private Vector2 respawn; //where link will respawn
 
 	// Use this for initialization
 	void Start () {
@@ -65,7 +73,7 @@ public class playMove : MonoBehaviour {
             isHit = true;
             auSource.clip = hurt;
             auSource.Play();
-            stun = 2;
+            stun = stunTime;
             rb.AddForce(new Vector2(500, 500));
         }
 
@@ -136,7 +144,7 @@ public class playMove : MonoBehaviour {
             if ((!isAttacking && !isDucking) || inAir)
                 rb.velocity = new Vector2(movex * Speed, rb.velocity.y);
             else
-                rb.velocity = new Vector2(rb.velocity.x / 1.25f, rb.velocity.y);
+                rb.velocity = new Vector2(rb.velocity.x / friction, rb.velocity.y);
         }
 
 		//sprite and collision flippings, prevents flipping while attacking or hit
@@ -264,7 +272,7 @@ public class playMove : MonoBehaviour {
                     pos = -1;
                 //apply knockback!
                 rb.AddForce(new Vector2(pos / 2, 1) * 500);
-                stun = 2;
+                stun = stunTime;
             }
         }
     }
@@ -288,7 +296,7 @@ public class playMove : MonoBehaviour {
                     pos = -1;
                 //apply knockback!
                 rb.AddForce(new Vector2(pos/2 ,1) * 500);
-                stun = 2;  
+                stun = stunTime;  
             }
         }
     }
