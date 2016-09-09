@@ -5,16 +5,16 @@ public class AcheBehaviour : EnemyBehavior {
 
     private SpriteRenderer rend;
     int i = 1;
-    Vector2 target;
     [SerializeField]
-    bool isFlying, isMovingLeft;
+    bool isFlying, isMovingLeft; //checks if bat is in flying state, moving left
+    float dist; //velocity based on player's y position
 
     // Use this for initialization
     void Start() {
         
         //values
         _health = 1;
-        speed = 5;
+        speed = 5; //controls how fast bat swoops
         height = 0;
         timer = timerSet();
         layerMask = ~(1 << 8); //check against layers that AREN'T 8 (enemy layer)
@@ -47,8 +47,10 @@ public class AcheBehaviour : EnemyBehavior {
         if (Mathf.Abs(rbp.position.x - rb.position.x) < 3 && !isFlying && timer<=0)
         {
             print("On the hunt");
-            target = rbp.position;
             isFlying = true;
+            //check distance down from bat to player's feet (approx)
+            dist = rbp.position.y-rb.position.y-1;
+            //check if player is to left
             if (rbp.position.x < rb.position.x)
                 isMovingLeft = true;
             else
@@ -56,23 +58,11 @@ public class AcheBehaviour : EnemyBehavior {
         }
         if (isFlying)
         {
-            //remember: y = x^2
-            float pos, dir;
-            //has the bat passed the target?
-            if (isMovingLeft)
-            {
-                pos = (rb.position.x < target.x) ? -1 : 1;
-                dir = 1;
-            }
-            else
-            {
-                pos = (rb.position.x > target.x) ? -1 : 1;
-                dir = -1;
-            }
-
-                
-            rb.velocity = new Vector2(-Time.deltaTime*100*speed*dir, -Time.deltaTime*100*speed*pos);
-
+            //check if moving left
+            float dir = (isMovingLeft) ? -1 : 1;
+            rb.velocity = new Vector2(speed/4*dir, dist);
+            //change velocity to go up by a certain amount
+            dist += Time.deltaTime*speed;
         }
         if(timer>0)
             timer -= Time.deltaTime;
