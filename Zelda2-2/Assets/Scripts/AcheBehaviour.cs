@@ -7,7 +7,8 @@ public class AcheBehaviour : EnemyBehavior {
     int i = 1;
     [SerializeField]
     bool isFlying, isMovingLeft; //checks if bat is in flying state, moving left
-    float dist; //velocity based on player's y position
+    [SerializeField]
+    float dist, horSpeed; //velocity based on player's y position, horizontal speed
 
     // Use this for initialization
     void Start() {
@@ -15,7 +16,7 @@ public class AcheBehaviour : EnemyBehavior {
         //values
         _health = 1;
         speed = 5; //controls how fast bat swoops
-        height = 0;
+        horSpeed = 2; //bat's horizontal speed
         timer = timerSet();
         layerMask = ~(1 << 8); //check against layers that AREN'T 8 (enemy layer)
         //objects
@@ -46,7 +47,7 @@ public class AcheBehaviour : EnemyBehavior {
         }
         if (Mathf.Abs(rbp.position.x - rb.position.x) < 3 && !isFlying && timer<=0)
         {
-            print("On the hunt");
+            //print("On the hunt");
             isFlying = true;
             //check distance down from bat to player's feet (approx)
             dist = rbp.position.y-rb.position.y-1;
@@ -60,7 +61,7 @@ public class AcheBehaviour : EnemyBehavior {
         {
             //check if moving left
             float dir = (isMovingLeft) ? -1 : 1;
-            rb.velocity = new Vector2(speed/4*dir, dist);
+            rb.velocity = new Vector2(horSpeed*dir, dist);
             //change velocity to go up by a certain amount
             dist += Time.deltaTime*speed;
         }
@@ -74,11 +75,14 @@ public class AcheBehaviour : EnemyBehavior {
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.transform.position.y > rb.position.y)
+        if (other.gameObject.tag != "Player")
         {
-            isFlying = false;
-            rb.velocity = Vector2.zero;
-            timer = timerSet();
+            if (other.transform.position.y > rb.position.y)
+            {
+                isFlying = false;
+                rb.velocity = Vector2.zero;
+                timer = timerSet();
+            }
         }
     }
 }
