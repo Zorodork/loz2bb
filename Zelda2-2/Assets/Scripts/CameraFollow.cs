@@ -6,7 +6,7 @@ public class CameraFollow : MonoBehaviour {
     public float dampTime = 0.15f;
     private Vector3 velocity = Vector3.zero;
     public Transform target;
-    private float minY = 4;
+    public float minY;
 
     // Update is called once per frame
     void Update()
