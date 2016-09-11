@@ -47,6 +47,8 @@ public class playMove : MonoBehaviour {
 
     private Vector2 respawn; //where link will respawn
     public float minHeight; //where link will die
+    private RaycastHit2D ground; //tells if link is grounded
+    private LayerMask player; //ignores player
 
 	// Use this for initialization
 	void Start () {
@@ -57,11 +59,13 @@ public class playMove : MonoBehaviour {
 		auSource = GetComponent<AudioSource> ();
         _health = _maxHealth;
         respawn = transform.position;
+        player = ~(1 << 9); //check against layers that AREN'T 9 (player layer)
 
     }
 	//controls here to avoid input drops
 	void Update(){
-
+        ground = Physics2D.Raycast(transform.position - new Vector3(.25f, .1f), Vector3.right, .5f, player);
+        Debug.DrawLine(transform.position - new Vector3(.25f, .1f), transform.position - new Vector3(.25f, .1f)+Vector3.right*.5f, Color.green);
         //flicker when stunned
         if (stun > 0)
             rend.enabled = !rend.enabled;
@@ -124,7 +128,7 @@ public class playMove : MonoBehaviour {
             death();
 		}
 		//jumping checks
-		if (rb.velocity.y == 0) {
+		if (ground) {
             if (inAir)
                 isHit = false;
 			inAir = false;
@@ -153,7 +157,7 @@ public class playMove : MonoBehaviour {
 			if (Input.GetAxis ("Horizontal") < 0) {
 				rend.flipX = true;
 				//change collider to face left
-				coll.offset = new Vector2(-.125f, coll.offset.y);
+				coll.offset = new Vector2(-.125f, coll.offset.y); 
 				anim.SetBool ("isWalking", true);
 			} else if (Input.GetAxis ("Horizontal") > 0) {
 				rend.flipX = false;
