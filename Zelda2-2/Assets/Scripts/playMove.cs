@@ -46,6 +46,7 @@ public class playMove : MonoBehaviour {
     private float friction = 1.25f; // default friction, DEFAULT 1.25
 
     private Vector2 respawn; //where link will respawn
+    public float minHeight; //where link will die
 
 	// Use this for initialization
 	void Start () {
@@ -79,8 +80,8 @@ public class playMove : MonoBehaviour {
 
         //player movement
 		movex = Input.GetAxis ("Horizontal");
-		//to fix: if attacking, they can change hitbox by pressing down (Fixed?)
-		if (!isAttacking && !isHit) {
+        //to fix: if attacking, they can change hitbox by pressing down (Fixed?)
+        if (!isAttacking && !isHit) {
             if (Input.GetKeyDown("space") && !inAir)
             {
                 jump();
@@ -117,9 +118,9 @@ public class playMove : MonoBehaviour {
 	}
 	// Update is called once per frame, physics updates here
 	void FixedUpdate () {
-
+        
 		//reset position if dead and done with knockback
-		if (rb.position.y < -10 || (_health <= 0&&!isHit)) {
+		if (rb.position.y < minHeight || (_health <= 0 && !isHit)) {
             death();
 		}
 		//jumping checks
@@ -248,6 +249,10 @@ public class playMove : MonoBehaviour {
             else
                 other.GetComponent<EnemyBehavior>().health -= power;
 		}
+        if(other.tag == "Break")
+        {
+            Destroy(other.gameObject, .1f);
+        }
         if (other.tag == "Health")
         {
             if (_health<_maxHealth)

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a0c2072334205654ab9e2d0d5146ce7e
-timeCreated: 1472446223
+timeCreated: 1473547634
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -83,8 +83,8 @@ TextureImporter:
         y: 172
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_14
@@ -94,8 +94,8 @@ TextureImporter:
         y: 172
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_16
@@ -105,8 +105,8 @@ TextureImporter:
         y: 172
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_17
@@ -116,8 +116,8 @@ TextureImporter:
         y: 172
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_20
@@ -127,8 +127,8 @@ TextureImporter:
         y: 180
         width: 24
         height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_22
@@ -138,8 +138,8 @@ TextureImporter:
         y: 140
         width: 24
         height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_35
@@ -149,8 +149,8 @@ TextureImporter:
         y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_36
@@ -160,8 +160,8 @@ TextureImporter:
         y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_37
@@ -171,8 +171,8 @@ TextureImporter:
         y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_38
@@ -182,8 +182,8 @@ TextureImporter:
         y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_39
@@ -193,8 +193,8 @@ TextureImporter:
         y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_40
@@ -204,8 +204,8 @@ TextureImporter:
         y: 110
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_41
@@ -215,8 +215,8 @@ TextureImporter:
         y: 94
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_42
@@ -226,8 +226,8 @@ TextureImporter:
         y: 94
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_43
@@ -237,8 +237,8 @@ TextureImporter:
         y: 94
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_44
@@ -248,8 +248,8 @@ TextureImporter:
         y: 94
         width: 16
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_45
@@ -259,8 +259,8 @@ TextureImporter:
         y: 78
         width: 8
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_46
@@ -270,8 +270,8 @@ TextureImporter:
         y: 93
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_47
@@ -281,8 +281,8 @@ TextureImporter:
         y: 93
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_48
@@ -292,8 +292,8 @@ TextureImporter:
         y: 93
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_49
@@ -303,8 +303,8 @@ TextureImporter:
         y: 93
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_50
@@ -314,14 +314,14 @@ TextureImporter:
         y: 12
         width: 64
         height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: 40}
-        - {x: -32, y: -40}
-        - {x: 32, y: -40}
-        - {x: 32, y: 40}
+      - - {x: -32, y: 80}
+        - {x: -32, y: 0}
+        - {x: 32, y: 0}
+        - {x: 32, y: 80}
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_51
       rect:
         serializedVersion: 2
@@ -329,8 +329,8 @@ TextureImporter:
         y: 83
         width: 6
         height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_52
@@ -340,8 +340,8 @@ TextureImporter:
         y: 73
         width: 6
         height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_53
@@ -351,8 +351,8 @@ TextureImporter:
         y: 63
         width: 6
         height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: NES - Zelda 2 The Adventure of Link - Parapa Palace_54
@@ -362,8 +362,8 @@ TextureImporter:
         y: 53
         width: 6
         height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

@@ -26,8 +26,6 @@ public class AcheBehaviour : EnemyBehavior {
         rb = GetComponent<Rigidbody2D>();
         rbp = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         rend = GetComponent<SpriteRenderer>();
-
-        
     }
 
 	// Update is called once per frame
@@ -49,6 +47,7 @@ public class AcheBehaviour : EnemyBehavior {
         {
             //print("On the hunt");
             isFlying = true;
+            anim.SetBool("isFlying", true);
             //check distance down from bat to player's feet (approx)
             dist = rbp.position.y-rb.position.y-1;
             //check if player is to left
@@ -79,6 +78,7 @@ public class AcheBehaviour : EnemyBehavior {
         {
             if (other.transform.position.y > rb.position.y)
             {
+                anim.SetBool("isFlying", false);
                 isFlying = false;
                 rb.velocity = Vector2.zero;
                 timer = timerSet();
