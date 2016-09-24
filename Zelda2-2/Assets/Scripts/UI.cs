@@ -4,12 +4,12 @@ using System.Collections;
 public class UI : MonoBehaviour {
 
     public Texture2D heart, noheart, paused;
-    private playMove player;
+    private PlayMove2 player;
     public AudioClip pause;
     private AudioSource auSource;
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<playMove>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayMove2>();
         auSource = GetComponent<AudioSource>();
 
     }

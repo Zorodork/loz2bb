@@ -70,7 +70,7 @@ public class OctoBehavior : EnemyBehavior {
     //tell octo to shoot in the right direction
     void shoot()
     {
-        GameObject rock1 = (GameObject)Instantiate(rock, transform.position + (Vector3.up*.5f), transform.rotation);
+        GameObject rock1 = (GameObject)Instantiate(rock, transform.position + (Vector3.up*.2f), transform.rotation);
         if (rend.flipX == true)
             rock1.GetComponent<RockProjectile>().isLeft = true;
         else

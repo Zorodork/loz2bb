@@ -3,8 +3,8 @@ using System.Collections;
 
 public class AcheBehaviour : EnemyBehavior {
 
-    private SpriteRenderer rend;
-    int i = 1;
+    //private SpriteRenderer rend;
+    //int i = 1;
     [SerializeField]
     bool isFlying, isMovingLeft; //checks if bat is in flying state, moving left
     [SerializeField]
@@ -25,7 +25,7 @@ public class AcheBehaviour : EnemyBehavior {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         rbp = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
-        rend = GetComponent<SpriteRenderer>();
+        //rend = GetComponent<SpriteRenderer>();
     }
 
 	// Update is called once per frame
