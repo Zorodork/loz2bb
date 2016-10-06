@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class AcheBehaviour : EnemyBehavior {
 
@@ -74,7 +73,7 @@ public class AcheBehaviour : EnemyBehavior {
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag != "Player")
+        if (other.gameObject.tag == "Untagged")
         {
             if (other.transform.position.y > rb.position.y)
             {

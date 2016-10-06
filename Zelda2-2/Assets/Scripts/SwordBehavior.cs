@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class SwordBehavior : MonoBehaviour
 {
@@ -23,6 +22,11 @@ public class SwordBehavior : MonoBehaviour
         {
             //get object in parent to do this
             player.collectHealth(other);
+        }
+        if (other.tag == "Key")
+        {
+            //get object in parent to do this
+            player.collectKey(other);
         }
     }
 }

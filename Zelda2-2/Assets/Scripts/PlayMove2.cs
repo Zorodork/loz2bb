@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class PlayMove2 : MonoBehaviour {
 
@@ -30,7 +29,7 @@ public class PlayMove2 : MonoBehaviour {
     private Animator anim;
     private BoxCollider2D coll;
     private AudioSource auSource;
-    public AudioClip slash, hit, hurt, heart;
+    public AudioClip slash, hit, hurt, heart, key;
     private BoxCollider2D sword, shield, playerc; //child hitboxes
 
     //GAME VARIABLES
@@ -40,6 +39,8 @@ public class PlayMove2 : MonoBehaviour {
     private int power = 1; //how strong link is, DEFAULT 1
     [SerializeField]
     private int _maxHealth = 3; //how much health link can have, DEFAULT 3
+    [SerializeField]
+    private int[] _keys = new int[] { 0, 0, 0, 0, 0, 0 }; //add keys by dungeon to this array
 
     //PLAYER PROPERTIES
     private float stunTime = 2; // default stun time, DEFAULT 2
@@ -350,6 +351,14 @@ public class PlayMove2 : MonoBehaviour {
             auSource.Play();
             Destroy(other.gameObject);
       }
+    //get powerup method (USED BY SWORD/PLAYER)
+    public void collectKey(Collider2D other)
+    {
+        keys[0]++; //TODO: replace 0 with dungeon number
+        auSource.clip = key;
+        auSource.Play();
+        Destroy(other.gameObject);
+    }
 
     //GETTERS/SETTERS
     public int health
@@ -368,6 +377,17 @@ public class PlayMove2 : MonoBehaviour {
         get
         {
             return _maxHealth;
+        }
+    }
+    public int[] keys
+    {
+        get
+        {
+            return _keys;
+        }
+        set
+        {
+            _keys = value;
         }
     }
 }

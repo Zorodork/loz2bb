@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -20,6 +19,10 @@ public class PlayerCollision : MonoBehaviour
         {
             //get object in parent to do this
             player.collectHealth(other);
+        }
+        if (other.tag == "Key")
+        {
+            player.collectKey(other);
         }
     }
     //If Collider hits another one
