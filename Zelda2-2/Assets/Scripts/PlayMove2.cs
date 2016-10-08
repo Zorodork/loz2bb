@@ -123,7 +123,7 @@ public class PlayMove2 : MonoBehaviour {
                         //CHANGING PLAYER HITBOX
                         //coll.offset = new Vector2(coll.offset.x, 1);
                         //coll.size = new Vector2(coll.size.x, 2);
-                        changeHitbox(coll.offset.x, 1, coll.size.x, 2);
+                        changeHitbox(coll.offset.x, 1, coll.size.x, 1.9f);
                         shield.offset = new Vector2(shield.offset.x, 1.31f);
                         shield.size = new Vector2(shield.size.x, .875f);
                     }
@@ -165,7 +165,7 @@ public class PlayMove2 : MonoBehaviour {
                 //CHANGING PLAYER HITBOX
                 //coll.offset = new Vector2(coll.offset.x, 1);
                 //coll.size = new Vector2(coll.size.x, 2);
-                changeHitbox(coll.offset.x, 1, coll.size.x, 2);
+                changeHitbox(coll.offset.x, 1, coll.size.x, 1.9f);
                 shield.offset = new Vector2(shield.offset.x, 1.31f);
                 shield.size = new Vector2(shield.size.x, .875f);
             }
