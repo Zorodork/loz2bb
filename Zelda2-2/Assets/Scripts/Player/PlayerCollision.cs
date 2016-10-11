@@ -24,6 +24,10 @@ public class PlayerCollision : MonoBehaviour
         {
             player.collectKey(other);
         }
+        if (other.tag == "Item")
+        {
+            player.collectWeapon(other);
+        }
     }
     //If Collider hits another one
     void OnTriggerStay2D(Collider2D other)

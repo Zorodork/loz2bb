@@ -38,33 +38,41 @@ public class AcheBehaviour : EnemyBehavior {
         }
         i = i + 1;*/
         //if is dead
-        if (_health <= 0 && !auSource.isPlaying)
+        if (_health <= 0 && !isDead)
         {
             enDeath();
         }
-        if (Mathf.Abs(rbp.position.x - rb.position.x) < 3 && !isFlying && timer<=0)
+        //die if falls into pit
+        if (rb.position.y < -10)
         {
-            //print("On the hunt");
-            isFlying = true;
-            anim.SetBool("isFlying", true);
-            //check distance down from bat to player's feet (approx)
-            dist = rbp.position.y-rb.position.y-1;
-            //check if player is to left
-            if (rbp.position.x < rb.position.x)
-                isMovingLeft = true;
-            else
-                isMovingLeft = false;
+            _health = 0;
         }
-        if (isFlying)
+        if (_health > 0)
         {
-            //check if moving left
-            float dir = (isMovingLeft) ? -1 : 1;
-            rb.velocity = new Vector2(horSpeed*dir, dist);
-            //change velocity to go up by a certain amount
-            dist += Time.deltaTime*speed;
+            if (Mathf.Abs(rbp.position.x - rb.position.x) < 3 && !isFlying && timer <= 0)
+            {
+                //print("On the hunt");
+                isFlying = true;
+                anim.SetBool("isFlying", true);
+                //check distance down from bat to player's feet (approx)
+                dist = rbp.position.y - rb.position.y - 1;
+                //check if player is to left
+                if (rbp.position.x < rb.position.x)
+                    isMovingLeft = true;
+                else
+                    isMovingLeft = false;
+            }
+            if (isFlying)
+            {
+                //check if moving left
+                float dir = (isMovingLeft) ? -1 : 1;
+                rb.velocity = new Vector2(horSpeed * dir, dist);
+                //change velocity to go up by a certain amount
+                dist += Time.deltaTime * speed;
+            }
+            if (timer > 0)
+                timer -= Time.deltaTime;
         }
-        if(timer>0)
-            timer -= Time.deltaTime;
 	}
 
     float timerSet() {

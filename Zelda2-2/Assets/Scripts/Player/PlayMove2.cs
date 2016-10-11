@@ -22,6 +22,8 @@ public class PlayMove2 : MonoBehaviour {
     private bool isDucking = false;
     [SerializeField]
     private bool isHit = false;
+    [SerializeField]
+    private bool isItem = false;
 
     //OBJECT VARIABLES
     private Rigidbody2D rb;
@@ -29,12 +31,12 @@ public class PlayMove2 : MonoBehaviour {
     private Animator anim;
     private BoxCollider2D coll;
     private AudioSource auSource;
-    public AudioClip slash, hit, hurt, heart, key;
+    public AudioClip slash, hit, hurt, heart, key, dodododo;
     public GameObject arrow;
     private BoxCollider2D sword, shield, playerc; //child hitboxes
 
     //GAME VARIABLES
-    private float attTime; //float used to keep track of attack length
+    private float attTime; //float used to keep track of attack length, arrow length
     private float stun = 0; //float used to keep track of stun time
     [SerializeField]
     private int power = 1; //how strong link is, DEFAULT 1
@@ -42,6 +44,7 @@ public class PlayMove2 : MonoBehaviour {
     private int _maxHealth = 3; //how much health link can have, DEFAULT 3
     [SerializeField]
     private int[] _keys = new int[] { 0, 0, 0, 0, 0, 0 }; //add keys by dungeon to this array
+    private bool[] _weapons = new bool[] { false, false, false, false, false, false }; //add weapons by dungeon to this array
 
     //PLAYER PROPERTIES
     private float stunTime = 2; // default stun time, DEFAULT 2
@@ -61,7 +64,7 @@ public class PlayMove2 : MonoBehaviour {
         auSource = GetComponent<AudioSource>();
         _health = _maxHealth;
         respawn = transform.position;
-        player = ~(1 << 9); //check against layers that AREN'T 9 (player layer)
+        player = ~(1 << 9 + 1 << 11+ 1 << 12); //check against layers that AREN'T 9 (player, weapon, pickup)
         sword = transform.Find("Sword").GetComponent<BoxCollider2D>();
         shield = transform.Find("Shield").GetComponent<BoxCollider2D>();
         playerc = transform.Find("Hero").GetComponent<BoxCollider2D>(); 
@@ -89,10 +92,6 @@ public class PlayMove2 : MonoBehaviour {
                 stun = stunTime;
                 rb.velocity = new Vector2(5, 10);
             }
-            if (Input.GetKeyDown("f"))
-            {
-                shoot();
-            }
 
             //player movement
             movex = Input.GetAxis("Horizontal");
@@ -106,6 +105,10 @@ public class PlayMove2 : MonoBehaviour {
                 if (Input.GetKeyDown("e"))
                 {
                     attack();
+                }
+                if (Input.GetKeyDown("f")&&_weapons[0])
+                {
+                    shoot();
                 }
                 else if (Input.GetKey("s") || Input.GetKey("down"))
                 {
@@ -354,7 +357,7 @@ public class PlayMove2 : MonoBehaviour {
                 health++;
             auSource.clip = heart;
             auSource.Play();
-            Destroy(other.gameObject);
+            Destroy(other.transform.parent.gameObject);
       }
     //get powerup method (USED BY SWORD/PLAYER)
     public void collectKey(Collider2D other)
@@ -362,12 +365,24 @@ public class PlayMove2 : MonoBehaviour {
         keys[0]++; //TODO: replace 0 with dungeon number
         auSource.clip = key;
         auSource.Play();
+        Destroy(other.transform.parent.gameObject);
+    }
+    //get powerup method (USED BY SWORD/PLAYER)
+    public void collectWeapon(Collider2D other)
+    {
+        weapons[0] = true; ; //TODO: replace 0 with dungeon number
+        auSource.clip = dodododo;
+        auSource.Play();
+        isItem = true;
         Destroy(other.gameObject);
     }
     //method to use when hero shoots arrow
     void shoot()
     {
-        GameObject arrow1 = (GameObject)Instantiate(arrow, transform.position + (Vector3.up * 1f), transform.rotation);
+        float mult = (isDucking) ? .6f : 1.4f;
+        GameObject arrow1 = (GameObject)Instantiate(arrow, transform.position + (Vector3.up * mult), transform.rotation);
+        arrow1.GetComponent<ArrowProjectile>().speed = Speed * 3;
+        arrow1.GetComponent<ArrowProjectile>().power = power; 
         if (rend.flipX == true)
         {
             arrow1.GetComponent<ArrowProjectile>().isLeft = true;
@@ -378,6 +393,8 @@ public class PlayMove2 : MonoBehaviour {
             arrow1.GetComponent<ArrowProjectile>().isLeft = false;
             arrow1.transform.rotation = Quaternion.Euler(0, 0, -90);
         }
+        isAttacking = true;
+        attTime = 0;
     }
 
     //GETTERS/SETTERS
@@ -408,6 +425,17 @@ public class PlayMove2 : MonoBehaviour {
         set
         {
             _keys = value;
+        }
+    }
+    public bool[] weapons
+    {
+        get
+        {
+            return _weapons;
+        }
+        set
+        {
+            _weapons = value;
         }
     }
 }

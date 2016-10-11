@@ -12,6 +12,7 @@ public class BlobBehavior : MonoBehaviour {
     private RaycastHit2D ground;
     private LayerMask layerMask;
     public GameObject heart;
+    private bool isDead;
 	// Use this for initialization
 	void Start () {
         //values
@@ -34,31 +35,37 @@ public class BlobBehavior : MonoBehaviour {
         ground = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, layerMask);
         Debug.DrawLine(transform.position, transform.position - new Vector3(0,.1f,0), Color.green);
         //if blob is dead
-        if (_health <= 0 && !auSource.isPlaying) {
-			anim.SetBool ("isDead", true);
-			auSource.Play();
+        if (_health <= 0 && !isDead)
+        {
+            isDead = true;
+            anim.SetBool("isDead", true);
+            auSource.Play();
             rb.velocity = new Vector2(0, 0);
             rb.isKinematic = true;
-			coll.enabled = false;
+            coll.enabled = false;
             int random = Random.Range(1, 10);
             if (random == 1)
                 Instantiate(heart, transform.position, transform.rotation);
-            Destroy (gameObject, death.length);
-		}
+            Destroy(gameObject, death.length);
+        }
         //die if falls into pit
-		if (rb.position.y < -10) {
-			_health = 0;
-		}
-        //if grounded and falling
-        if (ground && rb.velocity.y <= 0)
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        //timer for jump
-        if (timer < .5 & ground.collider != null)
-            anim.speed = 2;
-        if (timer > 0)
-            timer -= Time.deltaTime;
-        else if (ground.collider != null)
-            hop();
+        if (rb.position.y < -10)
+        {
+            _health = 0;
+        }
+        if (_health > 0)
+        {
+            //if grounded and falling
+            if (ground && rb.velocity.y <= 0)
+                rb.velocity = new Vector2(0, rb.velocity.y);
+            //timer for jump
+            if (timer < .5 & ground.collider != null)
+                anim.speed = 2;
+            if (timer > 0)
+                timer -= Time.deltaTime;
+            else if (ground.collider != null)
+                hop();
+        }
 	}
 	//tell blob to hop
 	void hop(){

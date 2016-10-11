@@ -32,7 +32,7 @@ public class OctoBehavior : EnemyBehavior {
         if (ground)
             rend.flipX = (rb.position.x > rbp.position.x) ? true : false;
         //if is dead
-        if (_health <= 0 && !auSource.isPlaying)
+        if (_health <= 0 && !isDead)
         {
             enDeath();
         }
@@ -41,24 +41,26 @@ public class OctoBehavior : EnemyBehavior {
         {
             _health = 0;
         }
-        
-        //if grounded and falling
-        if (ground && rb.velocity.y <= 0)
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        //timer for jump
-        if (timer < .5 && ground.collider != null)
-            anim.speed = 2;
-        if (timer > 0)
+        if (_health > 0)
         {
-            timer -= Time.deltaTime;
+            //if grounded and falling
+            if (ground && rb.velocity.y <= 0)
+                rb.velocity = new Vector2(0, rb.velocity.y);
+            //timer for jump
+            if (timer < .5 && ground.collider != null)
+                anim.speed = 2;
+            if (timer > 0)
+            {
+                timer -= Time.deltaTime;
+            }
+            else if (ground.collider != null)
+                hop();
+            //timer for shooting
+            if (shootTimer > 0)
+                shootTimer -= Time.deltaTime;
+            else
+                shoot();
         }
-        else if (ground.collider != null)
-            hop();
-        //timer for shooting
-        if (shootTimer > 0)
-            shootTimer -= Time.deltaTime;
-        else
-            shoot();
     }
 	//tell octo to hop
 	void hop(){

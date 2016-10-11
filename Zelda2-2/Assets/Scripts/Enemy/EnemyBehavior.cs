@@ -14,7 +14,10 @@ public class EnemyBehavior : MonoBehaviour {
     protected float timer, speed, height;
     protected RaycastHit2D ground;
     protected LayerMask layerMask;
-    public GameObject heart;
+    public GameObject drop;
+    [SerializeField]
+    private int prob = 1;
+    protected bool isDead;
 	
     /*
 	// Update is called once per frame
@@ -35,14 +38,15 @@ public class EnemyBehavior : MonoBehaviour {
 	}*/
     protected void enDeath()
     {
+        isDead = true;
         anim.SetBool("isDead", true);
         auSource.Play();
         rb.velocity = new Vector2(0, 0);
         rb.isKinematic = true;
         coll.enabled = false;
-        int random = Random.Range(1, 10);
+        int random = Random.Range(1, prob);
         if (random == 1)
-            Instantiate(heart, transform.position, transform.rotation);
+            Instantiate(drop, transform.position, transform.rotation);
         Destroy(gameObject, death.length);
     }
     //blobs health
