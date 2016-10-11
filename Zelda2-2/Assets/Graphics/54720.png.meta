@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 064002ab656663c44818981a6963febb
-timeCreated: 1472444553
+timeCreated: 1476164847
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,7 @@ TextureImporter:
     21300008: 54720_2
     21300010: Key
     21300012: Big Key
+    21300014: 54720_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -53,11 +54,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 16
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: 54720_0
+    - serializedVersion: 2
+      name: 54720_0
       rect:
         serializedVersion: 2
         x: 0
@@ -68,7 +72,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: 54720_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 54720_1
       rect:
         serializedVersion: 2
         x: 16
@@ -79,7 +85,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Heart_Container
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Heart_Container
       rect:
         serializedVersion: 2
         x: 25
@@ -90,18 +98,22 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Bow_Arrow
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Bow_Arrow
       rect:
         serializedVersion: 2
         x: 144
         y: 104
-        width: 15
+        width: 8
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: 54720_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 54720_2
       rect:
         serializedVersion: 2
         x: 160
@@ -112,7 +124,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Key
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Key
       rect:
         serializedVersion: 2
         x: 240
@@ -123,7 +137,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Big Key
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Big Key
       rect:
         serializedVersion: 2
         x: 248
@@ -134,6 +150,20 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: 54720_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 104
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

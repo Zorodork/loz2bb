@@ -30,6 +30,7 @@ public class PlayMove2 : MonoBehaviour {
     private BoxCollider2D coll;
     private AudioSource auSource;
     public AudioClip slash, hit, hurt, heart, key;
+    public GameObject arrow;
     private BoxCollider2D sword, shield, playerc; //child hitboxes
 
     //GAME VARIABLES
@@ -87,6 +88,10 @@ public class PlayMove2 : MonoBehaviour {
                 auSource.Play();
                 stun = stunTime;
                 rb.velocity = new Vector2(5, 10);
+            }
+            if (Input.GetKeyDown("f"))
+            {
+                shoot();
             }
 
             //player movement
@@ -358,6 +363,21 @@ public class PlayMove2 : MonoBehaviour {
         auSource.clip = key;
         auSource.Play();
         Destroy(other.gameObject);
+    }
+    //method to use when hero shoots arrow
+    void shoot()
+    {
+        GameObject arrow1 = (GameObject)Instantiate(arrow, transform.position + (Vector3.up * 1f), transform.rotation);
+        if (rend.flipX == true)
+        {
+            arrow1.GetComponent<ArrowProjectile>().isLeft = true;
+            arrow1.transform.rotation = Quaternion.Euler(0, 0, 90);
+        }
+        else
+        {
+            arrow1.GetComponent<ArrowProjectile>().isLeft = false;
+            arrow1.transform.rotation = Quaternion.Euler(0, 0, -90);
+        }
     }
 
     //GETTERS/SETTERS
