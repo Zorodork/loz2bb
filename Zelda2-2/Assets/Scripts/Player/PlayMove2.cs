@@ -15,15 +15,15 @@ public class PlayMove2 : MonoBehaviour {
 
     //STATE VARIABLES
     [SerializeField]
-    private bool inAir = false;
+    private bool inAir = false; //is hero in air/not grounded?
     [SerializeField]
-    private bool isAttacking = false;
+    private bool isAttacking = false; //is hero attacking?
     [SerializeField]
-    private bool isDucking = false;
+    private bool isDucking = false; //is hero ducking?
     [SerializeField]
-    private bool isHit = false;
+    private bool isHit = false; //is hero hit?
     [SerializeField]
-    private bool isItem = false;
+    private bool isItem = false; //is hero holding a new item?
 
     //OBJECT VARIABLES
     private Rigidbody2D rb;
@@ -43,8 +43,9 @@ public class PlayMove2 : MonoBehaviour {
     [SerializeField]
     private int _maxHealth = 3; //how much health link can have, DEFAULT 3
     [SerializeField]
+    private int _dungeonID; //current map
     private int[] _keys = new int[] { 0, 0, 0, 0, 0, 0 }; //add keys by dungeon to this array
-    private bool[] _weapons = new bool[] { false, false, false, false, false, false }; //add weapons by dungeon to this array
+    private bool[] _weapons = new bool[] { false, false, false, false, false, false }; //add weapons to this array
 
     //PLAYER PROPERTIES
     private float stunTime = 2; // default stun time, DEFAULT 2
@@ -67,13 +68,13 @@ public class PlayMove2 : MonoBehaviour {
         player = ~(1 << 9 + 1 << 11+ 1 << 12); //check against layers that AREN'T 9 (player, weapon, pickup)
         sword = transform.Find("Sword").GetComponent<BoxCollider2D>();
         shield = transform.Find("Shield").GetComponent<BoxCollider2D>();
-        playerc = transform.Find("Hero").GetComponent<BoxCollider2D>(); 
+        playerc = transform.Find("Hero").GetComponent<BoxCollider2D>();
     }
 
     //controls here to avoid input drops
     void Update()
     {
-        if (Time.timeScale != 0) //mute changes if game is paused
+        if (Time.timeScale != 0 || !isItem) //mute changes if game is paused
         {
             ground = Physics2D.Raycast(transform.position - new Vector3(.4f, .1f), Vector3.right, .8f, player);
             Debug.DrawLine(transform.position - new Vector3(.4f, .1f), transform.position - new Vector3(.4f, .1f) + Vector3.right * .8f, Color.green);
@@ -149,6 +150,12 @@ public class PlayMove2 : MonoBehaviour {
             {
                 stun -= Time.deltaTime;
             }
+        }
+        //return game play to normal after getting item
+        if (isItem && !auSource.isPlaying)
+        {
+            isItem = false;
+            Time.timeScale = 1;
         }
     }
     // Update is called once per frame, physics updates here
@@ -362,7 +369,7 @@ public class PlayMove2 : MonoBehaviour {
     //get powerup method (USED BY SWORD/PLAYER)
     public void collectKey(Collider2D other)
     {
-        keys[0]++; //TODO: replace 0 with dungeon number
+        keys[_dungeonID]++; //TODO: replace 0 with dungeon number
         auSource.clip = key;
         auSource.Play();
         Destroy(other.transform.parent.gameObject);
@@ -370,10 +377,11 @@ public class PlayMove2 : MonoBehaviour {
     //get powerup method (USED BY SWORD/PLAYER)
     public void collectWeapon(Collider2D other)
     {
-        weapons[0] = true; ; //TODO: replace 0 with dungeon number
+        weapons[0] = true; ; //TODO: replace 0 with item number
         auSource.clip = dodododo;
         auSource.Play();
         isItem = true;
+        Time.timeScale = 0;
         Destroy(other.gameObject);
     }
     //method to use when hero shoots arrow
@@ -436,6 +444,13 @@ public class PlayMove2 : MonoBehaviour {
         set
         {
             _weapons = value;
+        }
+    }
+    public int dungeonID
+    {
+        set
+        {
+            _dungeonID = value;
         }
     }
 }

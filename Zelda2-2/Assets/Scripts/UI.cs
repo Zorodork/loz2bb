@@ -2,14 +2,18 @@
 
 public class UI : MonoBehaviour {
 
+    [SerializeField]
+    private int dungeonID;
     public Texture2D heart, noheart, key, paused;
     private PlayMove2 player;
     public AudioClip pause;
     private AudioSource auSource;
+    private bool isPaused;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayMove2>();
         auSource = GetComponent<AudioSource>();
+        player.dungeonID = dungeonID; //tell player what dungeon they are in
     }
     void OnGUI()
     {
@@ -38,7 +42,7 @@ public class UI : MonoBehaviour {
         {
             GUI.DrawTexture(new Rect(Screen.width-(j+2)*16, 16, 8, 16), key);
         }
-        if (Time.timeScale == 0)
+        if (Time.timeScale == 0 && isPaused)
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), paused);
 
     }
@@ -46,15 +50,17 @@ public class UI : MonoBehaviour {
     {
         if (Input.GetKeyDown("p"))
         {
-            if (Time.timeScale == 1)
+            if (!isPaused && Time.timeScale == 1)
             {
+                isPaused = true;
                 Time.timeScale = 0;
                 auSource.clip = pause;
                 auSource.Play();
 
             }
-            else
+            else if (isPaused && Time.timeScale == 0)
             {
+                isPaused = false;
                 Time.timeScale = 1;
                 auSource.clip = pause;
                 auSource.Play();
