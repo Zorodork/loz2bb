@@ -37,7 +37,7 @@ public class OctoBehavior : EnemyBehavior {
             enDeath();
         }
         //die if falls into pit
-        if (rb.position.y < -10)
+        if (rb.position.y < minHeight)
         {
             _health = 0;
         }

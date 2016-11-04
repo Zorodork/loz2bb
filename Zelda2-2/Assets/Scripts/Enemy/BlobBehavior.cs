@@ -1,18 +1,7 @@
 ﻿using UnityEngine;
 
-public class BlobBehavior : MonoBehaviour {
-	[SerializeField]
-	private int _health;
-	private AudioSource auSource;
-	public AudioClip death;
-	private BoxCollider2D coll;
-	private Rigidbody2D rb, rbp;
-	private Animator anim;
-    private float timer, speed, height;
-    private RaycastHit2D ground;
-    private LayerMask layerMask;
-    public GameObject heart;
-    private bool isDead;
+public class BlobBehavior : EnemyBehavior {
+
 	// Use this for initialization
 	void Start () {
         //values
@@ -37,19 +26,10 @@ public class BlobBehavior : MonoBehaviour {
         //if blob is dead
         if (_health <= 0 && !isDead)
         {
-            isDead = true;
-            anim.SetBool("isDead", true);
-            auSource.Play();
-            rb.velocity = new Vector2(0, 0);
-            rb.isKinematic = true;
-            coll.enabled = false;
-            int random = Random.Range(1, 10);
-            if (random == 1)
-                Instantiate(heart, transform.position, transform.rotation);
-            Destroy(gameObject, death.length);
+            enDeath();
         }
         //die if falls into pit
-        if (rb.position.y < -10)
+        if (rb.position.y < minHeight)
         {
             _health = 0;
         }
@@ -78,17 +58,4 @@ public class BlobBehavior : MonoBehaviour {
     void timerSet(){
         timer = Random.Range(3,6);
     }
-	
-    //blobs health
-	public int health
-	{
-		get
-		{
-			return _health;
-		}
-		set
-		{
-			_health = value;
-		}
-	}
 }

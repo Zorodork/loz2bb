@@ -44,7 +44,7 @@ public class RockProjectile : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        print(other);
+        //print(other);
         if (other.tag != "Enemy" && other.tag != "Player")
         {
             if (other.tag == "PlayerColl")

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 
 public class PlayMove2 : MonoBehaviour {
+    //stuck test
+    public bool stuck;
 
     //MOVEMENT VARIABLES
     public float Speed = 4f; //player speed, DEFAULT 4
@@ -46,6 +48,7 @@ public class PlayMove2 : MonoBehaviour {
     private int _dungeonID; //current map
     private int[] _keys = new int[] { 0, 0, 0, 0, 0, 0 }; //add keys by dungeon to this array
     private bool[] _weapons = new bool[] { false, false, false, false, false, false }; //add weapons to this array
+    private bool[] _bossKeys = new bool[] { false, false, false, false, false, false }; //add bosskeys to this array
 
     //PLAYER PROPERTIES
     private float stunTime = 2; // default stun time, DEFAULT 2
@@ -65,7 +68,7 @@ public class PlayMove2 : MonoBehaviour {
         auSource = GetComponent<AudioSource>();
         _health = _maxHealth;
         respawn = transform.position;
-        player = ~(1 << 9 + 1 << 11+ 1 << 12); //check against layers that AREN'T 9 (player, weapon, pickup)
+        player = ~((1 << 9) + (1 << 11) + (1 << 12) + (1 << 13)); //check against layers that AREN'T 9 (player, weapon, pickup, GoThrough)
         sword = transform.Find("Sword").GetComponent<BoxCollider2D>();
         shield = transform.Find("Shield").GetComponent<BoxCollider2D>();
         playerc = transform.Find("Hero").GetComponent<BoxCollider2D>();
@@ -77,7 +80,10 @@ public class PlayMove2 : MonoBehaviour {
         if (Time.timeScale != 0 || !isItem) //mute changes if game is paused
         {
             ground = Physics2D.Raycast(transform.position - new Vector3(.4f, .1f), Vector3.right, .8f, player);
-            Debug.DrawLine(transform.position - new Vector3(.4f, .1f), transform.position - new Vector3(.4f, .1f) + Vector3.right * .8f, Color.green);
+            Color col = ground ? Color.red : Color.green;
+            Debug.DrawLine(transform.position - new Vector3(.4f, .1f), transform.position - new Vector3(.4f, .1f) + Vector3.right * .8f, col);
+            if (ground)
+                //print(ground.transform);
             //flicker when stunned
             if (stun > 0)
                 rend.enabled = !rend.enabled;
@@ -161,7 +167,8 @@ public class PlayMove2 : MonoBehaviour {
     // Update is called once per frame, physics updates here
     void FixedUpdate()
     {
-
+        if (stuck)
+            print("Overlap detected!");
         //reset position if dead and done with knockback
         if (rb.position.y < minHeight || (_health <= 0 && !isHit))
         {
@@ -374,10 +381,17 @@ public class PlayMove2 : MonoBehaviour {
         auSource.Play();
         Destroy(other.transform.parent.gameObject);
     }
+    public void collectBossKey(Collider2D other)
+    {
+        bossKeys[_dungeonID] = true; //TODO: replace 0 with dungeon number
+        auSource.clip = key;
+        auSource.Play();
+        Destroy(other.transform.parent.gameObject);
+    }
     //get powerup method (USED BY SWORD/PLAYER)
     public void collectWeapon(Collider2D other)
     {
-        weapons[0] = true; ; //TODO: replace 0 with item number
+        weapons[_dungeonID] = true; ; //TODO: replace 0 with item number
         auSource.clip = dodododo;
         auSource.Play();
         isItem = true;
@@ -446,11 +460,44 @@ public class PlayMove2 : MonoBehaviour {
             _weapons = value;
         }
     }
+    public bool[] bossKeys
+    {
+        get
+        {
+            return _bossKeys;
+        }
+        set
+        {
+            _bossKeys = value;
+        }
+    }
     public int dungeonID
     {
         set
         {
             _dungeonID = value;
         }
+    }
+
+    //Zip player up if stuck
+    void OnCollisionStay2D(Collision2D other)
+    {
+        Bounds bound1 = coll.bounds;
+        Debug.DrawLine(bound1.min, bound1.max, Color.blue);
+        Bounds bound2 = other.collider.bounds;
+        Debug.DrawLine(bound2.min, bound2.max, Color.blue);
+
+        if (bound2.Intersects(bound1) && !other.gameObject.name.Contains("SemiSolid"))
+        {
+            stuck = true;
+            //rb.position += (rend.flipX) ? Vector2.right*.5f : Vector2.left*.5f;
+            //TODO: only do this if stuck between two colliders
+            rb.position += Vector2.up*.15f;
+        }
+        else
+        {
+            stuck = false;
+        }
+
     }
 }

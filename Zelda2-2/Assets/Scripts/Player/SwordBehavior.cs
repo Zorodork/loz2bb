@@ -28,5 +28,14 @@ public class SwordBehavior : MonoBehaviour
             //get object in parent to do this
             player.collectKey(other);
         }
+        if (other.tag == "BossKey")
+        {
+            //get object in parent to do this
+            player.collectBossKey(other);
+        }
+        if (other.tag == "Chest")
+        {
+            other.GetComponent<ChestBehavior>().open();
+        }
     }
 }

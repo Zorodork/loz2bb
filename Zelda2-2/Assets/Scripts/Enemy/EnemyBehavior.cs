@@ -18,6 +18,7 @@ public class EnemyBehavior : MonoBehaviour {
     [SerializeField]
     private int prob = 1;
     protected bool isDead;
+    protected float minHeight = -100;
 	
     /*
 	// Update is called once per frame
@@ -44,8 +45,9 @@ public class EnemyBehavior : MonoBehaviour {
         rb.velocity = new Vector2(0, 0);
         rb.isKinematic = true;
         coll.enabled = false;
+        //TODO: Make Drop Tables
         int random = Random.Range(1, prob);
-        if (random == 1)
+        if (random == 1 && drop)
             Instantiate(drop, transform.position, transform.rotation);
         Destroy(gameObject, death.length);
     }

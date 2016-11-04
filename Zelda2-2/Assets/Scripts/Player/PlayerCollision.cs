@@ -3,6 +3,7 @@
 public class PlayerCollision : MonoBehaviour
 {
     PlayMove2 player;
+    
     // Use this for initialization
     void Start()
     {
@@ -23,6 +24,11 @@ public class PlayerCollision : MonoBehaviour
         if (other.tag == "Key")
         {
             player.collectKey(other);
+        }
+        if (other.tag == "BossKey")
+        {
+            //get object in parent to do this
+            player.collectBossKey(other);
         }
         if (other.tag == "Item")
         {

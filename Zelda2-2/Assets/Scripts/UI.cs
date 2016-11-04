@@ -4,7 +4,7 @@ public class UI : MonoBehaviour {
 
     [SerializeField]
     private int dungeonID;
-    public Texture2D heart, noheart, key, paused;
+    public Texture2D heart, noheart, key, boss, paused;
     private PlayMove2 player;
     public AudioClip pause;
     private AudioSource auSource;
@@ -38,10 +38,17 @@ public class UI : MonoBehaviour {
         }
         //draw keys here
         int keys = player.keys[0];
-        for(int j = 0; j < keys; j++)
+        bool bossKey = player.bossKeys[0];
+        for(int j = 0; j < keys+1; ++j)
         {
-            GUI.DrawTexture(new Rect(Screen.width-(j+2)*16, 16, 8, 16), key);
+            if (j == keys)
+            {
+                if (bossKey) GUI.DrawTexture(new Rect(Screen.width - (j + 2) * 16, 16, 8, 16), boss);
+            }
+            else
+                GUI.DrawTexture(new Rect(Screen.width - (j + 2) * 16, 16, 8, 16), key);
         }
+
         if (Time.timeScale == 0 && isPaused)
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), paused);
 
