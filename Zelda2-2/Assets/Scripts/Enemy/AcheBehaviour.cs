@@ -51,16 +51,19 @@ public class AcheBehaviour : EnemyBehavior {
         {
             if (Mathf.Abs(rbp.position.x - rb.position.x) < 3 && !isFlying && timer <= 0)
             {
-                //print("On the hunt");
-                isFlying = true;
-                anim.SetBool("isFlying", true);
-                //check distance down from bat to player's feet (approx)
-                dist = rbp.position.y - rb.position.y - 1;
-                //check if player is to left
-                if (rbp.position.x < rb.position.x)
-                    isMovingLeft = true;
-                else
-                    isMovingLeft = false;
+                if (rb.position.y > rbp.position.y)
+                {
+                    //print("On the hunt");
+                    isFlying = true;
+                    anim.SetBool("isFlying", true);
+                    //check distance down from bat to player's feet (approx)
+                    dist = rbp.position.y - rb.position.y - 1;
+                    //check if player is to left
+                    if (rbp.position.x < rb.position.x)
+                        isMovingLeft = true;
+                    else
+                        isMovingLeft = false;
+                }
             }
             if (isFlying)
             {

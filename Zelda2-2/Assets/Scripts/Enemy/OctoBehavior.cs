@@ -58,7 +58,7 @@ public class OctoBehavior : EnemyBehavior {
             //timer for shooting
             if (shootTimer > 0)
                 shootTimer -= Time.deltaTime;
-            else
+            else if (Mathf.Abs(rbp.position.x - rb.position.x) < 15 && (Mathf.Abs(rbp.position.y - rb.position.y) < 7))
                 shoot();
         }
     }
